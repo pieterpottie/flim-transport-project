@@ -1,0 +1,19 @@
+LIFEOGRAPHDB
+V 74
+E no
+
+O sd
+S 1
+L 10000
+ID10003
+CcDefault
+
+ID10002
+E 1055044609
+Dr1336963472
+Dh1336963740
+P Setup SVN
+P 
+P 	- SVN repository is setup using google projects: http://code.google.com/p/flim-transport-project/
+P 
+
