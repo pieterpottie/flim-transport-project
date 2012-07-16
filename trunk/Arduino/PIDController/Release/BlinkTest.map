@@ -1,0 +1,1567 @@
+Archive member included because of file (symbol)
+
+../../libCore/arduinoUno/libcore.a(wiring_analog.c.o)
+                              ./main.o (analogRead)
+../../libCore/arduinoUno/libcore.a(wiring.c.o)
+                              ./main.o (delay)
+../../libCore/arduinoUno/libcore.a(wiring_digital.c.o)
+                              ../../libCore/arduinoUno/libcore.a(wiring_analog.c.o) (pinMode)
+../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                              ./main.o (_ZN5Print7printlnEii)
+../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                              ./main.o (Serial)
+../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                              ../../libCore/arduinoUno/libcore.a(Print.cpp.o) (_ZNK6StringixEj)
+../../libCore/arduinoUno/libcore.a(new.cpp.o)
+                              ../../libCore/arduinoUno/libcore.a(Print.cpp.o) (__cxa_pure_virtual)
+/usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_divmodhi4.o)
+                              ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o) (__divmodhi4)
+/usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_udivmodsi4.o)
+                              ../../libCore/arduinoUno/libcore.a(Print.cpp.o) (__udivmodsi4)
+/usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o (exit)
+/usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_copy_data.o)
+                              ../../libCore/arduinoUno/libcore.a(wiring_analog.c.o) (__do_copy_data)
+/usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_clear_bss.o)
+                              ../../libCore/arduinoUno/libcore.a(wiring.c.o) (__do_clear_bss)
+/usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_ctors.o)
+                              ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o) (__do_global_ctors)
+/usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_fixunssfsi.o)
+                              ../../libCore/arduinoUno/libcore.a(Print.cpp.o) (__fixunssfsi)
+/usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_addsub_sf.o)
+                              ../../libCore/arduinoUno/libcore.a(Print.cpp.o) (__addsf3)
+/usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_mul_sf.o)
+                              ../../libCore/arduinoUno/libcore.a(Print.cpp.o) (__mulsf3)
+/usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_div_sf.o)
+                              ../../libCore/arduinoUno/libcore.a(Print.cpp.o) (__divsf3)
+/usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_ge_sf.o)
+                              /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_fixunssfsi.o) (__gesf2)
+/usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_lt_sf.o)
+                              ../../libCore/arduinoUno/libcore.a(Print.cpp.o) (__ltsf2)
+/usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_si_to_sf.o)
+                              ../../libCore/arduinoUno/libcore.a(Print.cpp.o) (__floatsisf)
+/usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_sf_to_si.o)
+                              ../../libCore/arduinoUno/libcore.a(Print.cpp.o) (__fixsfsi)
+/usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_thenan_sf.o)
+                              /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_addsub_sf.o) (__thenan_sf)
+/usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_usi_to_sf.o)
+                              ../../libCore/arduinoUno/libcore.a(Print.cpp.o) (__floatunsisf)
+/usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_udivmodhi4.o)
+                              /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_divmodhi4.o) (__udivmodhi4)
+/usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_prologue.o)
+                              /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_addsub_sf.o) (__prologue_saves__)
+/usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_epilogue.o)
+                              /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_addsub_sf.o) (__epilogue_restores__)
+/usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_tablejump.o)
+                              /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_ctors.o) (__tablejump__)
+/usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_clzsi2.o)
+                              /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_si_to_sf.o) (__clzsi2)
+/usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_pack_sf.o)
+                              /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_addsub_sf.o) (__pack_f)
+/usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_unpack_sf.o)
+                              /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_addsub_sf.o) (__unpack_f)
+/usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_fpcmp_parts_sf.o)
+                              /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_ge_sf.o) (__fpcmp_parts_f)
+/usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_clz.o)
+                              /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_clzsi2.o) (__clz_tab)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(malloc.o)
+                              ../../libCore/arduinoUno/libcore.a(new.cpp.o) (malloc)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(realloc.o)
+                              ../../libCore/arduinoUno/libcore.a(WString.cpp.o) (realloc)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(atol.o)
+                              ../../libCore/arduinoUno/libcore.a(WString.cpp.o) (atol)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(isspace.o)
+                              ../../libCore/arduinoUno/libcore.a(WString.cpp.o) (isspace)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(tolower.o)
+                              ../../libCore/arduinoUno/libcore.a(WString.cpp.o) (tolower)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(toupper.o)
+                              ../../libCore/arduinoUno/libcore.a(WString.cpp.o) (toupper)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(memcpy.o)
+                              ../../libCore/arduinoUno/libcore.a(WString.cpp.o) (memcpy)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(memmove.o)
+                              ../../libCore/arduinoUno/libcore.a(WString.cpp.o) (memmove)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strchr.o)
+                              ../../libCore/arduinoUno/libcore.a(WString.cpp.o) (strchr)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strcmp.o)
+                              ../../libCore/arduinoUno/libcore.a(WString.cpp.o) (strcmp)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strcpy.o)
+                              ../../libCore/arduinoUno/libcore.a(WString.cpp.o) (strcpy)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strncmp.o)
+                              ../../libCore/arduinoUno/libcore.a(WString.cpp.o) (strncmp)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strncpy.o)
+                              ../../libCore/arduinoUno/libcore.a(WString.cpp.o) (strncpy)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strrchr.o)
+                              ../../libCore/arduinoUno/libcore.a(WString.cpp.o) (strrchr)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strstr.o)
+                              ../../libCore/arduinoUno/libcore.a(WString.cpp.o) (strstr)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(itoa.o)
+                              ../../libCore/arduinoUno/libcore.a(WString.cpp.o) (itoa)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(ltoa.o)
+                              ../../libCore/arduinoUno/libcore.a(WString.cpp.o) (ltoa)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(mulsi10.o)
+                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(atol.o) (__mulsi_const_10)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(ultoa.o)
+                              ../../libCore/arduinoUno/libcore.a(WString.cpp.o) (ultoa)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(utoa.o)
+                              ../../libCore/arduinoUno/libcore.a(WString.cpp.o) (utoa)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(cty_isfalse.o)
+                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(isspace.o) (__ctype_isfalse)
+/usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strrev.o)
+                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(itoa.o) (strrev)
+
+Allocating common symbols
+Common symbol       size              file
+
+__brkval            0x2               /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(malloc.o)
+__flp               0x2               /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(malloc.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+LOAD ./main.o
+LOAD ../../libCore/arduinoUno/libcore.a
+LOAD /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libm.a
+LOAD /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a
+LOAD /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x36de
+ *(.vectors)
+ .vectors       0x00000000       0x68 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+ .progmem.data  0x00000068       0x5a ../../libCore/arduinoUno/libcore.a(wiring_digital.c.o)
+                0x00000068                port_to_mode_PGM
+                0x00000072                port_to_output_PGM
+                0x0000007c                port_to_input_PGM
+                0x00000086                digital_pin_to_port_PGM
+                0x0000009a                digital_pin_to_bit_mask_PGM
+                0x000000ae                digital_pin_to_timer_PGM
+                0x000000c2                . = ALIGN (0x2)
+                0x000000c2                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000c2        0x0 linker stubs
+ *(.trampolines*)
+                0x000000c2                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000c2                __ctors_start = .
+ *(.ctors)
+ .ctors         0x000000c2        0x2 ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                0x000000c4                __ctors_end = .
+                0x000000c4                __dtors_start = .
+ *(.dtors)
+                0x000000c4                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000000c4        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+                0x000000c4                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000c4        0xc /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000000d0       0x16 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_copy_data.o)
+                0x000000d0                __do_copy_data
+ .init4         0x000000e6       0x10 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_clear_bss.o)
+                0x000000e6                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ .init6         0x000000f6       0x16 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_ctors.o)
+                0x000000f6                __do_global_ctors
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000010c        0x8 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+ *(.init9)
+ *(.text)
+ .text          0x00000114        0x4 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+                0x00000114                __vector_22
+                0x00000114                __vector_1
+                0x00000114                __vector_24
+                0x00000114                __vector_12
+                0x00000114                __bad_interrupt
+                0x00000114                __vector_6
+                0x00000114                __vector_3
+                0x00000114                __vector_23
+                0x00000114                __vector_25
+                0x00000114                __vector_11
+                0x00000114                __vector_13
+                0x00000114                __vector_17
+                0x00000114                __vector_7
+                0x00000114                __vector_5
+                0x00000114                __vector_4
+                0x00000114                __vector_9
+                0x00000114                __vector_2
+                0x00000114                __vector_21
+                0x00000114                __vector_15
+                0x00000114                __vector_8
+                0x00000114                __vector_14
+                0x00000114                __vector_10
+                0x00000114                __vector_20
+ .text          0x00000118       0x42 ./main.o
+                0x00000118                setup
+                0x0000012a                loop
+                0x0000014c                main
+ .text          0x0000015a        0x0 ../../libCore/arduinoUno/libcore.a(wiring_analog.c.o)
+ .text          0x0000015a        0x0 ../../libCore/arduinoUno/libcore.a(wiring.c.o)
+ .text          0x0000015a        0x0 ../../libCore/arduinoUno/libcore.a(wiring_digital.c.o)
+ .text          0x0000015a        0x0 ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+ .text          0x0000015a        0x0 ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+ .text          0x0000015a        0x0 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+ .text          0x0000015a        0x0 ../../libCore/arduinoUno/libcore.a(new.cpp.o)
+ .text          0x0000015a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_divmodhi4.o)
+ .text          0x0000015a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_udivmodsi4.o)
+ .text          0x0000015a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_exit.o)
+ .text          0x0000015a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_copy_data.o)
+ .text          0x0000015a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_clear_bss.o)
+ .text          0x0000015a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_ctors.o)
+ .text          0x0000015a       0x58 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_fixunssfsi.o)
+                0x0000015a                __fixunssfsi
+ .text          0x000001b2      0x350 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_addsub_sf.o)
+                0x00000446                __addsf3
+                0x000004a0                __subsf3
+ .text          0x00000502      0x1f4 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_mul_sf.o)
+                0x00000502                __mulsf3
+ .text          0x000006f6      0x15c /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_div_sf.o)
+                0x000006f6                __divsf3
+ .text          0x00000852       0x60 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_ge_sf.o)
+                0x00000852                __gesf2
+ .text          0x000008b2       0x60 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_lt_sf.o)
+                0x000008b2                __ltsf2
+ .text          0x00000912       0xc0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_si_to_sf.o)
+                0x00000912                __floatsisf
+ .text          0x000009d2       0xa4 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_sf_to_si.o)
+                0x000009d2                __fixsfsi
+ .text          0x00000a76        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_thenan_sf.o)
+ .text          0x00000a76       0xf0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_usi_to_sf.o)
+                0x00000a76                __floatunsisf
+ .text          0x00000b66        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_udivmodhi4.o)
+ .text          0x00000b66        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_prologue.o)
+ .text          0x00000b66        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_epilogue.o)
+ .text          0x00000b66        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_tablejump.o)
+ .text          0x00000b66       0xb4 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_clzsi2.o)
+                0x00000b66                __clzsi2
+ .text          0x00000c1a      0x19c /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_pack_sf.o)
+                0x00000c1a                __pack_f
+ .text          0x00000db6       0xd2 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_unpack_sf.o)
+                0x00000db6                __unpack_f
+ .text          0x00000e88       0xb2 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_fpcmp_parts_sf.o)
+                0x00000e88                __fpcmp_parts_f
+ .text          0x00000f3a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_clz.o)
+ .text          0x00000f3a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(malloc.o)
+ .text          0x00000f3a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(realloc.o)
+ .text          0x00000f3a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(atol.o)
+ .text          0x00000f3a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(isspace.o)
+ .text          0x00000f3a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(tolower.o)
+ .text          0x00000f3a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(toupper.o)
+ .text          0x00000f3a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(memcpy.o)
+ .text          0x00000f3a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(memmove.o)
+ .text          0x00000f3a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strchr.o)
+ .text          0x00000f3a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strcmp.o)
+ .text          0x00000f3a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strcpy.o)
+ .text          0x00000f3a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strncmp.o)
+ .text          0x00000f3a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strncpy.o)
+ .text          0x00000f3a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strrchr.o)
+ .text          0x00000f3a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strstr.o)
+ .text          0x00000f3a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(itoa.o)
+ .text          0x00000f3a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(ltoa.o)
+ .text          0x00000f3a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(mulsi10.o)
+ .text          0x00000f3a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(ultoa.o)
+ .text          0x00000f3a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(utoa.o)
+ .text          0x00000f3a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(cty_isfalse.o)
+ .text          0x00000f3a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strrev.o)
+                0x00000f3a                . = ALIGN (0x2)
+ *(.text.*)
+ .text.analogReference
+                0x00000f3a        0x6 ../../libCore/arduinoUno/libcore.a(wiring_analog.c.o)
+                0x00000f3a                analogReference
+ .text.analogRead
+                0x00000f40       0x42 ../../libCore/arduinoUno/libcore.a(wiring_analog.c.o)
+                0x00000f40                analogRead
+ .text.analogWrite
+                0x00000f82       0xc0 ../../libCore/arduinoUno/libcore.a(wiring_analog.c.o)
+                0x00000f82                analogWrite
+ .text.__vector_16
+                0x00001042       0x90 ../../libCore/arduinoUno/libcore.a(wiring.c.o)
+                0x00001042                __vector_16
+ .text.millis   0x000010d2       0x1c ../../libCore/arduinoUno/libcore.a(wiring.c.o)
+                0x000010d2                millis
+ .text.micros   0x000010ee       0x4c ../../libCore/arduinoUno/libcore.a(wiring.c.o)
+                0x000010ee                micros
+ .text.delay    0x0000113a       0x4e ../../libCore/arduinoUno/libcore.a(wiring.c.o)
+                0x0000113a                delay
+ .text.delayMicroseconds
+                0x00001188       0x14 ../../libCore/arduinoUno/libcore.a(wiring.c.o)
+                0x00001188                delayMicroseconds
+ .text.init     0x0000119c       0x76 ../../libCore/arduinoUno/libcore.a(wiring.c.o)
+                0x0000119c                init
+ .text.turnOffPWM
+                0x00001212       0x5a ../../libCore/arduinoUno/libcore.a(wiring_digital.c.o)
+ .text.pinMode  0x0000126c       0x48 ../../libCore/arduinoUno/libcore.a(wiring_digital.c.o)
+                0x0000126c                pinMode
+ .text.digitalWrite
+                0x000012b4       0x70 ../../libCore/arduinoUno/libcore.a(wiring_digital.c.o)
+                0x000012b4                digitalWrite
+ .text.digitalRead
+                0x00001324       0x54 ../../libCore/arduinoUno/libcore.a(wiring_digital.c.o)
+                0x00001324                digitalRead
+ .text._ZN5Print5writeEPKhj
+                0x00001378       0x54 ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                0x00001378                _ZN5Print5writeEPKhj
+ .text._ZN5Print5writeEPKc
+                0x000013cc       0x22 ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                0x000013cc                _ZN5Print5writeEPKc
+ .text._ZN5Print5printEPK19__FlashStringHelper
+                0x000013ee       0x46 ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                0x000013ee                _ZN5Print5printEPK19__FlashStringHelper
+ .text._ZN5Print5printERK6String
+                0x00001434       0x66 ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                0x00001434                _ZN5Print5printERK6String
+ .text._ZN5Print5printEPKc
+                0x0000149a        0x6 ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                0x0000149a                _ZN5Print5printEPKc
+ .text._ZN5Print5printEc
+                0x000014a0       0x10 ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                0x000014a0                _ZN5Print5printEc
+ .text._ZN5Print5printERK9Printable
+                0x000014b0       0x16 ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                0x000014b0                _ZN5Print5printERK9Printable
+ .text._ZN5Print7printlnEv
+                0x000014c6       0x2a ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                0x000014c6                _ZN5Print7printlnEv
+ .text._ZN5Print7printlnEPK19__FlashStringHelper
+                0x000014f0       0x26 ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                0x000014f0                _ZN5Print7printlnEPK19__FlashStringHelper
+ .text._ZN5Print7printlnERK6String
+                0x00001516       0x26 ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                0x00001516                _ZN5Print7printlnERK6String
+ .text._ZN5Print7printlnEPKc
+                0x0000153c       0x26 ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                0x0000153c                _ZN5Print7printlnEPKc
+ .text._ZN5Print7printlnEc
+                0x00001562       0x26 ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                0x00001562                _ZN5Print7printlnEc
+ .text._ZN5Print7printlnERK9Printable
+                0x00001588       0x26 ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                0x00001588                _ZN5Print7printlnERK9Printable
+ .text._ZN5Print11printNumberEmh
+                0x000015ae       0xb4 ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                0x000015ae                _ZN5Print11printNumberEmh
+ .text._ZN5Print5printEmi
+                0x00001662       0x1e ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                0x00001662                _ZN5Print5printEmi
+ .text._ZN5Print7printlnEmi
+                0x00001680       0x26 ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                0x00001680                _ZN5Print7printlnEmi
+ .text._ZN5Print5printEji
+                0x000016a6        0xe ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                0x000016a6                _ZN5Print5printEji
+ .text._ZN5Print7printlnEji
+                0x000016b4       0x2e ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                0x000016b4                _ZN5Print7printlnEji
+ .text._ZN5Print5printEhi
+                0x000016e2       0x10 ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                0x000016e2                _ZN5Print5printEhi
+ .text._ZN5Print7printlnEhi
+                0x000016f2       0x30 ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                0x000016f2                _ZN5Print7printlnEhi
+ .text._ZN5Print5printEli
+                0x00001722       0x76 ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                0x00001722                _ZN5Print5printEli
+ .text._ZN5Print7printlnEli
+                0x00001798       0x26 ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                0x00001798                _ZN5Print7printlnEli
+ .text._ZN5Print5printEii
+                0x000017be       0x14 ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                0x000017be                _ZN5Print5printEii
+ .text._ZN5Print7printlnEii
+                0x000017d2       0x36 ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                0x000017d2                _ZN5Print7printlnEii
+ .text._ZN5Print10printFloatEdh
+                0x00001808      0x16c ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                0x00001808                _ZN5Print10printFloatEdh
+ .text._ZN5Print5printEdi
+                0x00001974        0x6 ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                0x00001974                _ZN5Print5printEdi
+ .text._ZN5Print7printlnEdi
+                0x0000197a       0x26 ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                0x0000197a                _ZN5Print7printlnEdi
+ .text._ZN14HardwareSerial9availableEv
+                0x000019a0       0x26 ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                0x000019a0                _ZN14HardwareSerial9availableEv
+ .text._ZN14HardwareSerial4peekEv
+                0x000019c6       0x38 ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                0x000019c6                _ZN14HardwareSerial4peekEv
+ .text._ZN14HardwareSerial4readEv
+                0x000019fe       0x44 ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                0x000019fe                _ZN14HardwareSerial4readEv
+ .text._ZN14HardwareSerial5flushEv
+                0x00001a42       0x28 ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                0x00001a42                _ZN14HardwareSerial5flushEv
+ .text._ZN14HardwareSerial5writeEh
+                0x00001a6a       0x72 ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                0x00001a6a                _ZN14HardwareSerial5writeEh
+ .text._Z10store_charhP11ring_buffer
+                0x00001adc       0x34 ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                0x00001adc                _Z10store_charhP11ring_buffer
+ .text._Z11serialEventv
+                0x00001b10        0x2 ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                0x00001b10                _Z11serialEventv
+ .text.__vector_18
+                0x00001b12       0x50 ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                0x00001b12                __vector_18
+ .text._Z14serialEventRunv
+                0x00001b62       0x12 ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                0x00001b62                _Z14serialEventRunv
+ .text.__vector_19
+                0x00001b74       0x8e ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                0x00001b74                __vector_19
+ .text._ZN14HardwareSerialC2EP11ring_bufferS1_PVhS3_S3_S3_S3_hhhhh
+                0x00001c02       0x7e ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                0x00001c02                _ZN14HardwareSerialC2EP11ring_bufferS1_PVhS3_S3_S3_S3_hhhhh
+                0x00001c02                _ZN14HardwareSerialC1EP11ring_bufferS1_PVhS3_S3_S3_S3_hhhhh
+ .text._ZN14HardwareSerial5beginEm
+                0x00001c80       0xfc ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                0x00001c80                _ZN14HardwareSerial5beginEm
+ .text._ZN14HardwareSerial3endEv
+                0x00001d7c       0xae ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                0x00001d7c                _ZN14HardwareSerial3endEv
+ .text._GLOBAL__I_rx_buffer
+                0x00001e2a       0x7a ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+ .text._ZN6StringD2Ev
+                0x00001ea4        0xc ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00001ea4                _ZN6StringD1Ev
+                0x00001ea4                _ZN6StringD2Ev
+ .text._ZN6String10invalidateEv
+                0x00001eb0       0x24 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00001eb0                _ZN6String10invalidateEv
+ .text._ZN6String12changeBufferEj
+                0x00001ed4       0x34 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00001ed4                _ZN6String12changeBufferEj
+ .text._ZN6String7reserveEj
+                0x00001f08       0x3e ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00001f08                _ZN6String7reserveEj
+ .text._ZN6String4copyEPKcj
+                0x00001f46       0x42 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00001f46                _ZN6String4copyEPKcj
+ .text._ZN6StringC2EPKc
+                0x00001f88       0x36 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00001f88                _ZN6StringC1EPKc
+                0x00001f88                _ZN6StringC2EPKc
+ .text._ZN6StringaSERKS_
+                0x00001fbe       0x36 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00001fbe                _ZN6StringaSERKS_
+ .text._ZN6StringC2ERKS_
+                0x00001ff4       0x16 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00001ff4                _ZN6StringC1ERKS_
+                0x00001ff4                _ZN6StringC2ERKS_
+ .text._ZN6StringaSEPKc
+                0x0000200a       0x30 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x0000200a                _ZN6StringaSEPKc
+ .text._ZN6StringC2Emh
+                0x0000203a       0x62 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x0000203a                _ZN6StringC2Emh
+                0x0000203a                _ZN6StringC1Emh
+ .text._ZN6StringC2Elh
+                0x0000209c       0x62 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x0000209c                _ZN6StringC1Elh
+                0x0000209c                _ZN6StringC2Elh
+ .text._ZN6StringC2Ejh
+                0x000020fe       0x60 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x000020fe                _ZN6StringC2Ejh
+                0x000020fe                _ZN6StringC1Ejh
+ .text._ZN6StringC2Eih
+                0x0000215e       0x60 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x0000215e                _ZN6StringC1Eih
+                0x0000215e                _ZN6StringC2Eih
+ .text._ZN6StringC2Ehh
+                0x000021be       0x62 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x000021be                _ZN6StringC1Ehh
+                0x000021be                _ZN6StringC2Ehh
+ .text._ZN6StringC2Ec
+                0x00002220       0x32 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00002220                _ZN6StringC2Ec
+                0x00002220                _ZN6StringC1Ec
+ .text._ZN6String6concatEPKcj
+                0x00002252       0x58 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00002252                _ZN6String6concatEPKcj
+ .text._ZN6String6concatERKS_
+                0x000022aa       0x10 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x000022aa                _ZN6String6concatERKS_
+ .text._ZN6String6concatEPKc
+                0x000022ba       0x22 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x000022ba                _ZN6String6concatEPKc
+ .text._ZN6String6concatEc
+                0x000022dc       0x26 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x000022dc                _ZN6String6concatEc
+ .text._ZN6String6concatEh
+                0x00002302       0x5a ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00002302                _ZN6String6concatEh
+ .text._ZN6String6concatEi
+                0x0000235c       0x64 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x0000235c                _ZN6String6concatEi
+ .text._ZN6String6concatEj
+                0x000023c0       0x5e ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x000023c0                _ZN6String6concatEj
+ .text._ZN6String6concatEl
+                0x0000241e       0x66 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x0000241e                _ZN6String6concatEl
+ .text._ZN6String6concatEm
+                0x00002484       0x66 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00002484                _ZN6String6concatEm
+ .text._ZplRK15StringSumHelperRK6String
+                0x000024ea       0x26 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x000024ea                _ZplRK15StringSumHelperRK6String
+ .text._ZplRK15StringSumHelperPKc
+                0x00002510       0x34 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00002510                _ZplRK15StringSumHelperPKc
+ .text._ZplRK15StringSumHelperc
+                0x00002544       0x1c ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00002544                _ZplRK15StringSumHelperc
+ .text._ZplRK15StringSumHelperh
+                0x00002560       0x1c ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00002560                _ZplRK15StringSumHelperh
+ .text._ZplRK15StringSumHelperi
+                0x0000257c       0x1c ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x0000257c                _ZplRK15StringSumHelperi
+ .text._ZplRK15StringSumHelperj
+                0x00002598       0x1c ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00002598                _ZplRK15StringSumHelperj
+ .text._ZplRK15StringSumHelperl
+                0x000025b4       0x1c ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x000025b4                _ZplRK15StringSumHelperl
+ .text._ZplRK15StringSumHelperm
+                0x000025d0       0x1c ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x000025d0                _ZplRK15StringSumHelperm
+ .text._ZNK6String9compareToERKS_
+                0x000025ec       0x6c ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x000025ec                _ZNK6String9compareToERKS_
+ .text._ZNK6String6equalsERKS_
+                0x00002658       0x22 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00002658                _ZNK6String6equalsERKS_
+ .text._ZNK6String6equalsEPKc
+                0x0000267a       0x46 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x0000267a                _ZNK6String6equalsEPKc
+ .text._ZNK6StringltERKS_
+                0x000026c0        0xe ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x000026c0                _ZNK6StringltERKS_
+ .text._ZNK6StringgtERKS_
+                0x000026ce       0x12 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x000026ce                _ZNK6StringgtERKS_
+ .text._ZNK6StringleERKS_
+                0x000026e0       0x12 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x000026e0                _ZNK6StringleERKS_
+ .text._ZNK6StringgeERKS_
+                0x000026f2       0x10 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x000026f2                _ZNK6StringgeERKS_
+ .text._ZNK6String16equalsIgnoreCaseERKS_
+                0x00002702       0x74 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00002702                _ZNK6String16equalsIgnoreCaseERKS_
+ .text._ZNK6String10startsWithERKS_j
+                0x00002776       0x4c ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00002776                _ZNK6String10startsWithERKS_j
+ .text._ZNK6String10startsWithERKS_
+                0x000027c2       0x20 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x000027c2                _ZNK6String10startsWithERKS_
+ .text._ZNK6String8endsWithERKS_
+                0x000027e2       0x4a ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x000027e2                _ZNK6String8endsWithERKS_
+ .text._ZN6String9setCharAtEjc
+                0x0000282c       0x1a ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x0000282c                _ZN6String9setCharAtEjc
+ .text._ZN6StringixEj
+                0x00002846       0x26 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00002846                _ZN6StringixEj
+ .text._ZNK6StringixEj
+                0x0000286c       0x26 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x0000286c                _ZNK6StringixEj
+ .text._ZNK6String6charAtEj
+                0x00002892        0x6 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00002892                _ZNK6String6charAtEj
+ .text._ZNK6String8getBytesEPhjj
+                0x00002898       0x58 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00002898                _ZNK6String8getBytesEPhjj
+ .text._ZNK6String7indexOfEcj
+                0x000028f0       0x3c ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x000028f0                _ZNK6String7indexOfEcj
+ .text._ZNK6String7indexOfEc
+                0x0000292c        0xa ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x0000292c                _ZNK6String7indexOfEc
+ .text._ZNK6String7indexOfERKS_j
+                0x00002936       0x3c ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00002936                _ZNK6String7indexOfERKS_j
+ .text._ZNK6String7indexOfERKS_
+                0x00002972        0xa ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00002972                _ZNK6String7indexOfERKS_
+ .text._ZNK6String11lastIndexOfEcj
+                0x0000297c       0x6e ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x0000297c                _ZNK6String11lastIndexOfEcj
+ .text._ZNK6String11lastIndexOfEc
+                0x000029ea       0x10 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x000029ea                _ZNK6String11lastIndexOfEc
+ .text._ZNK6String11lastIndexOfERKS_j
+                0x000029fa       0x9a ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x000029fa                _ZNK6String11lastIndexOfERKS_j
+ .text._ZNK6String11lastIndexOfERKS_
+                0x00002a94       0x16 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00002a94                _ZNK6String11lastIndexOfERKS_
+ .text._ZNK6String9substringEjj
+                0x00002aaa       0xa2 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00002aaa                _ZNK6String9substringEjj
+ .text._ZNK6String9substringEj
+                0x00002b4c       0x18 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00002b4c                _ZNK6String9substringEj
+ .text._ZN6String7replaceEcc
+                0x00002b64       0x1e ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00002b64                _ZN6String7replaceEcc
+ .text._ZN6String7replaceERKS_S1_
+                0x00002b82      0x214 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00002b82                _ZN6String7replaceERKS_S1_
+ .text._ZN6String11toLowerCaseEv
+                0x00002d96       0x28 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00002d96                _ZN6String11toLowerCaseEv
+ .text._ZN6String11toUpperCaseEv
+                0x00002dbe       0x28 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00002dbe                _ZN6String11toUpperCaseEv
+ .text._ZN6String4trimEv
+                0x00002de6       0xc2 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00002de6                _ZN6String4trimEv
+ .text._ZNK6String5toIntEv
+                0x00002ea8       0x20 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                0x00002ea8                _ZNK6String5toIntEv
+ .text._Znwj    0x00002ec8        0x6 ../../libCore/arduinoUno/libcore.a(new.cpp.o)
+                0x00002ec8                _Znwj
+ .text._ZdlPv   0x00002ece        0x6 ../../libCore/arduinoUno/libcore.a(new.cpp.o)
+                0x00002ece                _ZdlPv
+ .text.__cxa_guard_acquire
+                0x00002ed4       0x14 ../../libCore/arduinoUno/libcore.a(new.cpp.o)
+                0x00002ed4                __cxa_guard_acquire
+ .text.__cxa_guard_release
+                0x00002ee8        0x8 ../../libCore/arduinoUno/libcore.a(new.cpp.o)
+                0x00002ee8                __cxa_guard_release
+ .text.__cxa_guard_abort
+                0x00002ef0        0x2 ../../libCore/arduinoUno/libcore.a(new.cpp.o)
+                0x00002ef0                __cxa_guard_abort
+ .text.__cxa_pure_virtual
+                0x00002ef2        0x2 ../../libCore/arduinoUno/libcore.a(new.cpp.o)
+                0x00002ef2                __cxa_pure_virtual
+ .text.libgcc   0x00002ef4       0x26 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_divmodhi4.o)
+                0x00002ef4                __divmodhi4
+                0x00002ef4                _div
+ .text.libgcc   0x00002f1a       0x44 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_udivmodsi4.o)
+                0x00002f1a                __udivmodsi4
+ .text.libgcc   0x00002f5e        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x00002f5e        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x00002f5e        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00002f5e        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_ctors.o)
+ .text.libgcc   0x00002f5e       0x28 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_udivmodhi4.o)
+                0x00002f5e                __udivmodhi4
+ .text.libgcc   0x00002f86       0x38 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_prologue.o)
+                0x00002f86                __prologue_saves__
+ .text.libgcc   0x00002fbe       0x36 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_epilogue.o)
+                0x00002fbe                __epilogue_restores__
+ .text.libgcc   0x00002ff4        0xc /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_tablejump.o)
+                0x00002ff4                __tablejump2__
+                0x00002ff8                __tablejump__
+ .text.avr-libc
+                0x00003000      0x266 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(malloc.o)
+                0x00003000                malloc
+                0x00003134                free
+ .text.avr-libc
+                0x00003266      0x196 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(realloc.o)
+                0x00003266                realloc
+ .text.avr-libc
+                0x000033fc       0x4e /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(atol.o)
+                0x000033fc                atol
+ .text.avr-libc
+                0x0000344a       0x10 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(isspace.o)
+                0x0000344a                isspace
+ .text.avr-libc
+                0x0000345a       0x10 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(tolower.o)
+                0x0000345a                tolower
+ .text.avr-libc
+                0x0000346a       0x10 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(toupper.o)
+                0x0000346a                toupper
+ .text.avr-libc
+                0x0000347a       0x12 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(memcpy.o)
+                0x0000347a                memcpy
+ .text.avr-libc
+                0x0000348c       0x24 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(memmove.o)
+                0x0000348c                memmove
+ .text.avr-libc
+                0x000034b0       0x16 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strchr.o)
+                0x000034b0                strchr
+ .text.avr-libc
+                0x000034c6       0x12 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strcmp.o)
+                0x000034c6                strcmp
+ .text.avr-libc
+                0x000034d8        0xe /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strcpy.o)
+                0x000034d8                strcpy
+ .text.avr-libc
+                0x000034e6       0x1c /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strncmp.o)
+                0x000034e6                strncmp
+ .text.avr-libc
+                0x00003502       0x1e /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strncpy.o)
+                0x00003502                strncpy
+ .text.avr-libc
+                0x00003520       0x16 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strrchr.o)
+                0x00003520                strrchr
+ .text.avr-libc
+                0x00003536       0x34 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strstr.o)
+                0x00003536                strstr
+ .text.avr-libc
+                0x0000356a       0x42 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(itoa.o)
+                0x0000356a                itoa
+ .text.avr-libc
+                0x000035ac       0x68 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(ltoa.o)
+                0x000035ac                ltoa
+ .text.avr-libc
+                0x00003614       0x2a /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(mulsi10.o)
+                0x00003614                __mulsi_const_10
+ .text.avr-libc
+                0x0000363e       0x4a /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(ultoa.o)
+                0x0000363e                ultoa
+ .text.avr-libc
+                0x00003688       0x2c /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(utoa.o)
+                0x00003688                utoa
+ .text.avr-libc
+                0x000036b4        0x6 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(cty_isfalse.o)
+                0x000036b4                __ctype_isfalse
+                0x000036b8                __ctype_istrue
+ .text.avr-libc
+                0x000036ba       0x20 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strrev.o)
+                0x000036ba                strrev
+                0x000036da                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000036da        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_exit.o)
+                0x000036da                exit
+                0x000036da                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000036da        0x4 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x000036de                _etext = .
+
+.data           0x00800100      0x13a load address 0x000036de
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+ .data          0x00800100        0x0 ./main.o
+ .data          0x00800100        0x0 ../../libCore/arduinoUno/libcore.a(wiring_analog.c.o)
+ .data          0x00800100        0x0 ../../libCore/arduinoUno/libcore.a(wiring.c.o)
+ .data          0x00800100        0x0 ../../libCore/arduinoUno/libcore.a(wiring_digital.c.o)
+ .data          0x00800100        0x2 ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+ .data          0x00800102        0x0 ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+ .data          0x00800102        0x1 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+ .data          0x00800103        0x0 ../../libCore/arduinoUno/libcore.a(new.cpp.o)
+ .data          0x00800103        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_divmodhi4.o)
+ .data          0x00800103        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_udivmodsi4.o)
+ .data          0x00800103        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_exit.o)
+ .data          0x00800103        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_copy_data.o)
+ .data          0x00800103        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_clear_bss.o)
+ .data          0x00800103        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_ctors.o)
+ .data          0x00800103        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_fixunssfsi.o)
+ .data          0x00800103        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_addsub_sf.o)
+ .data          0x00800103        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_mul_sf.o)
+ .data          0x00800103        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_div_sf.o)
+ .data          0x00800103        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_ge_sf.o)
+ .data          0x00800103        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_lt_sf.o)
+ .data          0x00800103        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_si_to_sf.o)
+ .data          0x00800103        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_sf_to_si.o)
+ .data          0x00800103        0x8 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_thenan_sf.o)
+                0x00800103                __thenan_sf
+ .data          0x0080010b        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_usi_to_sf.o)
+ .data          0x0080010b        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_udivmodhi4.o)
+ .data          0x0080010b        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_prologue.o)
+ .data          0x0080010b        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_epilogue.o)
+ .data          0x0080010b        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_tablejump.o)
+ .data          0x0080010b        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_clzsi2.o)
+ .data          0x0080010b        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_pack_sf.o)
+ .data          0x0080010b        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_unpack_sf.o)
+ .data          0x0080010b        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_fpcmp_parts_sf.o)
+ .data          0x0080010b      0x100 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_clz.o)
+                0x0080010b                __clz_tab
+ .data          0x0080020b        0x6 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(malloc.o)
+                0x0080020b                __malloc_margin
+                0x0080020d                __malloc_heap_start
+                0x0080020f                __malloc_heap_end
+ .data          0x00800211        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(realloc.o)
+ .data          0x00800211        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(atol.o)
+ .data          0x00800211        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(isspace.o)
+ .data          0x00800211        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(tolower.o)
+ .data          0x00800211        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(toupper.o)
+ .data          0x00800211        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(memcpy.o)
+ .data          0x00800211        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(memmove.o)
+ .data          0x00800211        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strchr.o)
+ .data          0x00800211        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strcmp.o)
+ .data          0x00800211        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strcpy.o)
+ .data          0x00800211        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strncmp.o)
+ .data          0x00800211        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strncpy.o)
+ .data          0x00800211        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strrchr.o)
+ .data          0x00800211        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strstr.o)
+ .data          0x00800211        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(itoa.o)
+ .data          0x00800211        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(ltoa.o)
+ .data          0x00800211        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(mulsi10.o)
+ .data          0x00800211        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(ultoa.o)
+ .data          0x00800211        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(utoa.o)
+ .data          0x00800211        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(cty_isfalse.o)
+ .data          0x00800211        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strrev.o)
+ *(.data*)
+ .data.analog_reference
+                0x00800211        0x1 ../../libCore/arduinoUno/libcore.a(wiring_analog.c.o)
+                0x00800211                analog_reference
+ *(.rodata)
+ *(.rodata*)
+ .rodata._ZTV5Print
+                0x00800212        0x8 ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                0x00800212                _ZTV5Print
+ .rodata._ZTV14HardwareSerial
+                0x0080021a       0x10 ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                0x0080021a                _ZTV14HardwareSerial
+ .rodata._ZTV6Stream
+                0x0080022a       0x10 ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                0x0080022a                _ZTV6Stream
+ *(.gnu.linkonce.d*)
+                0x0080023a                . = ALIGN (0x2)
+                0x0080023a                _edata = .
+                0x0080023a                PROVIDE (__data_end, .)
+
+.bss            0x0080023a       0xb5
+                0x0080023a                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+ .bss           0x0080023a        0x0 ./main.o
+ .bss           0x0080023a        0x0 ../../libCore/arduinoUno/libcore.a(wiring_analog.c.o)
+ .bss           0x0080023a        0x0 ../../libCore/arduinoUno/libcore.a(wiring.c.o)
+ .bss           0x0080023a        0x0 ../../libCore/arduinoUno/libcore.a(wiring_digital.c.o)
+ .bss           0x0080023a        0x0 ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+ .bss           0x0080023a        0x0 ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+ .bss           0x0080023a        0x0 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+ .bss           0x0080023a        0x0 ../../libCore/arduinoUno/libcore.a(new.cpp.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_divmodhi4.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_udivmodsi4.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_exit.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_copy_data.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_ctors.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_fixunssfsi.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_addsub_sf.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_mul_sf.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_div_sf.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_ge_sf.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_lt_sf.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_si_to_sf.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_sf_to_si.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_thenan_sf.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_usi_to_sf.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_udivmodhi4.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_prologue.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_epilogue.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_tablejump.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_clzsi2.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_pack_sf.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_unpack_sf.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_fpcmp_parts_sf.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_clz.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(malloc.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(realloc.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(atol.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(isspace.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(tolower.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(toupper.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(memcpy.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(memmove.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strchr.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strcmp.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strcpy.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strncmp.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strncpy.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strrchr.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strstr.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(itoa.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(ltoa.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(mulsi10.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(ultoa.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(utoa.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(cty_isfalse.o)
+ .bss           0x0080023a        0x0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strrev.o)
+ *(.bss*)
+ .bss.timer0_overflow_count
+                0x0080023a        0x4 ../../libCore/arduinoUno/libcore.a(wiring.c.o)
+                0x0080023a                timer0_overflow_count
+ .bss.timer0_millis
+                0x0080023e        0x4 ../../libCore/arduinoUno/libcore.a(wiring.c.o)
+                0x0080023e                timer0_millis
+ .bss.timer0_fract
+                0x00800242        0x1 ../../libCore/arduinoUno/libcore.a(wiring.c.o)
+ .bss.rx_buffer
+                0x00800243       0x44 ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                0x00800243                rx_buffer
+ .bss.tx_buffer
+                0x00800287       0x44 ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                0x00800287                tx_buffer
+ .bss.Serial    0x008002cb       0x1f ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                0x008002cb                Serial
+ .bss._ZZN6StringixEjE19dummy_writable_char
+                0x008002ea        0x1 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+ *(COMMON)
+ COMMON         0x008002eb        0x4 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(malloc.o)
+                0x008002eb                __brkval
+                0x008002ed                __flp
+                0x008002ef                PROVIDE (__bss_end, .)
+                0x000036de                __data_load_start = LOADADDR (.data)
+                0x00003818                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008002ef        0x0
+                0x008002ef                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x008002ef                PROVIDE (__noinit_end, .)
+                0x008002ef                _end = .
+                0x008002ef                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000     0x9114
+ *(.stab)
+ .stab          0x00000000      0x6cc /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+ .stab          0x000006cc      0x84c ../../libCore/arduinoUno/libcore.a(wiring_analog.c.o)
+                                0x858 (size before relaxing)
+ .stab          0x00000f18      0x708 ../../libCore/arduinoUno/libcore.a(wiring.c.o)
+                                0xa44 (size before relaxing)
+ .stab          0x00001620      0x72c ../../libCore/arduinoUno/libcore.a(wiring_digital.c.o)
+                                0xa68 (size before relaxing)
+ .stab          0x00001d4c     0x1500 ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                               0x150c (size before relaxing)
+ .stab          0x0000324c      0xf3c ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                                0xf48 (size before relaxing)
+ .stab          0x00004188     0x2cf4 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                               0x2d00 (size before relaxing)
+ .stab          0x00006e7c      0x3c0 ../../libCore/arduinoUno/libcore.a(new.cpp.o)
+                                0x3cc (size before relaxing)
+ .stab          0x0000723c      0x750 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(malloc.o)
+                                0x75c (size before relaxing)
+ .stab          0x0000798c      0x3cc /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(realloc.o)
+                                0x5c4 (size before relaxing)
+ .stab          0x00007d58      0x1e0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(atol.o)
+                                0x1ec (size before relaxing)
+ .stab          0x00007f38       0x9c /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(isspace.o)
+                                 0xa8 (size before relaxing)
+ .stab          0x00007fd4       0x9c /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(tolower.o)
+                                 0xa8 (size before relaxing)
+ .stab          0x00008070       0x9c /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(toupper.o)
+                                 0xa8 (size before relaxing)
+ .stab          0x0000810c       0x84 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(memcpy.o)
+                                 0x90 (size before relaxing)
+ .stab          0x00008190       0xe4 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(memmove.o)
+                                 0xf0 (size before relaxing)
+ .stab          0x00008274       0x9c /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strchr.o)
+                                 0xa8 (size before relaxing)
+ .stab          0x00008310       0x84 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strcmp.o)
+                                 0x90 (size before relaxing)
+ .stab          0x00008394       0x6c /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strcpy.o)
+                                 0x78 (size before relaxing)
+ .stab          0x00008400       0xc0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strncmp.o)
+                                 0xcc (size before relaxing)
+ .stab          0x000084c0       0xcc /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strncpy.o)
+                                 0xd8 (size before relaxing)
+ .stab          0x0000858c       0x9c /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strrchr.o)
+                                 0xa8 (size before relaxing)
+ .stab          0x00008628      0x150 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strstr.o)
+                                0x15c (size before relaxing)
+ .stab          0x00008778      0x1b0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(itoa.o)
+                                0x1bc (size before relaxing)
+ .stab          0x00008928      0x294 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(ltoa.o)
+                                0x2a0 (size before relaxing)
+ .stab          0x00008bbc      0x114 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(mulsi10.o)
+                                0x120 (size before relaxing)
+ .stab          0x00008cd0      0x1e0 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(ultoa.o)
+                                0x1ec (size before relaxing)
+ .stab          0x00008eb0      0x12c /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(utoa.o)
+                                0x138 (size before relaxing)
+ .stab          0x00008fdc       0x60 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(cty_isfalse.o)
+                                 0x6c (size before relaxing)
+ .stab          0x0000903c       0xd8 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strrev.o)
+                                 0xe4 (size before relaxing)
+
+.stabstr        0x00000000     0x8c83
+ *(.stabstr)
+ .stabstr       0x00000000     0x8c83 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(BlinkTest.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+HardwareSerial::HardwareSerial(ring_buffer*, ring_buffer*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+HardwareSerial::HardwareSerial(ring_buffer*, ring_buffer*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+HardwareSerial::available()                       ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+HardwareSerial::begin(unsigned long)              ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                                                  ./main.o
+HardwareSerial::end()                             ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+HardwareSerial::flush()                           ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+HardwareSerial::peek()                            ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+HardwareSerial::read()                            ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+HardwareSerial::write(unsigned char)              ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+Print::print(Printable const&)                    ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+Print::print(String const&)                       ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+Print::print(__FlashStringHelper const*)          ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+Print::print(char const*)                         ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+Print::print(char)                                ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+Print::print(double, int)                         ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+Print::print(int, int)                            ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+Print::print(long, int)                           ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+Print::print(unsigned char, int)                  ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+Print::print(unsigned int, int)                   ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+Print::print(unsigned long, int)                  ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+Print::printFloat(double, unsigned char)          ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+Print::printNumber(unsigned long, unsigned char)  ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+Print::println()                                  ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+Print::println(Printable const&)                  ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+Print::println(String const&)                     ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+Print::println(__FlashStringHelper const*)        ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+Print::println(char const*)                       ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+Print::println(char)                              ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+Print::println(double, int)                       ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+Print::println(int, int)                          ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                                                  ./main.o
+Print::println(long, int)                         ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+Print::println(unsigned char, int)                ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+Print::println(unsigned int, int)                 ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+Print::println(unsigned long, int)                ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+Print::write(char const*)                         ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+Print::write(unsigned char const*, unsigned int)  ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                                                  ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+Serial                                            ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                                                  ./main.o
+String::String(String const&)                     ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::String(String const&)                     ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::String(char const*)                       ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::String(char const*)                       ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::String(char)                              ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::String(char)                              ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::String(int, unsigned char)                ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::String(int, unsigned char)                ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::String(long, unsigned char)               ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::String(long, unsigned char)               ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::String(unsigned char, unsigned char)      ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::String(unsigned char, unsigned char)      ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::String(unsigned int, unsigned char)       ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::String(unsigned int, unsigned char)       ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::String(unsigned long, unsigned char)      ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::String(unsigned long, unsigned char)      ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::changeBuffer(unsigned int)                ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::charAt(unsigned int) const                ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::compareTo(String const&) const            ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::concat(String const&)                     ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::concat(char const*)                       ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::concat(char const*, unsigned int)         ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::concat(char)                              ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::concat(int)                               ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::concat(long)                              ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::concat(unsigned char)                     ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::concat(unsigned int)                      ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::concat(unsigned long)                     ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::copy(char const*, unsigned int)           ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::endsWith(String const&) const             ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::equals(String const&) const               ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::equals(char const*) const                 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::equalsIgnoreCase(String const&) const     ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::getBytes(unsigned char*, unsigned int, unsigned int) const ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::indexOf(String const&) const              ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::indexOf(String const&, unsigned int) const ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::indexOf(char) const                       ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::indexOf(char, unsigned int) const         ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::invalidate()                              ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::lastIndexOf(String const&) const          ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::lastIndexOf(String const&, unsigned int) const ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::lastIndexOf(char) const                   ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::lastIndexOf(char, unsigned int) const     ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::operator<(String const&) const            ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::operator<=(String const&) const           ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::operator=(String const&)                  ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::operator=(char const*)                    ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::operator>(String const&) const            ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::operator>=(String const&) const           ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::operator[](unsigned int)                  ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::operator[](unsigned int) const            ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                                                  ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+String::replace(String const&, String const&)     ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::replace(char, char)                       ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::reserve(unsigned int)                     ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::setCharAt(unsigned int, char)             ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::startsWith(String const&) const           ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::startsWith(String const&, unsigned int) const ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::substring(unsigned int) const             ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::substring(unsigned int, unsigned int) const ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::toInt() const                             ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::toLowerCase()                             ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::toUpperCase()                             ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::trim()                                    ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::~String()                                 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+String::~String()                                 ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+__addsf3                                          /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_addsub_sf.o)
+                                                  ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+__bad_interrupt                                   /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__brkval                                          /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(realloc.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(malloc.o)
+__bss_end                                         /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_clear_bss.o)
+__bss_start                                       /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_clear_bss.o)
+__clz_tab                                         /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_clz.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_clzsi2.o)
+__clzsi2                                          /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_clzsi2.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_usi_to_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_si_to_sf.o)
+__ctors_end                                       /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_ctors.o)
+__ctors_start                                     /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_ctors.o)
+__ctype_isfalse                                   /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(cty_isfalse.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(isspace.o)
+__ctype_istrue                                    /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(cty_isfalse.o)
+__cxa_guard_abort                                 ../../libCore/arduinoUno/libcore.a(new.cpp.o)
+__cxa_guard_acquire                               ../../libCore/arduinoUno/libcore.a(new.cpp.o)
+__cxa_guard_release                               ../../libCore/arduinoUno/libcore.a(new.cpp.o)
+__cxa_pure_virtual                                ../../libCore/arduinoUno/libcore.a(new.cpp.o)
+                                                  ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                                                  ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+__data_end                                        /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_copy_data.o)
+__data_load_start                                 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_copy_data.o)
+__data_start                                      /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_copy_data.o)
+__divmodhi4                                       /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_divmodhi4.o)
+                                                  ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+__divsf3                                          /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_div_sf.o)
+                                                  ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+__do_clear_bss                                    /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_clear_bss.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(malloc.o)
+                                                  ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                                                  ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                                                  ../../libCore/arduinoUno/libcore.a(wiring.c.o)
+__do_copy_data                                    /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_copy_data.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(malloc.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_clz.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_thenan_sf.o)
+                                                  ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+                                                  ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                                                  ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+                                                  ../../libCore/arduinoUno/libcore.a(wiring_analog.c.o)
+__do_global_ctors                                 /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_ctors.o)
+                                                  ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+__epilogue_restores__                             /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_epilogue.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(realloc.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_pack_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_usi_to_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_sf_to_si.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_si_to_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_lt_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_ge_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_div_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_mul_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_addsub_sf.o)
+__fixsfsi                                         /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_sf_to_si.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_fixunssfsi.o)
+                                                  ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+__fixunssfsi                                      /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_fixunssfsi.o)
+                                                  ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+__floatsisf                                       /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_si_to_sf.o)
+                                                  ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+__floatunsisf                                     /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_usi_to_sf.o)
+                                                  ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+__flp                                             /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(realloc.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(malloc.o)
+__fpcmp_parts_f                                   /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_fpcmp_parts_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_lt_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_ge_sf.o)
+__gesf2                                           /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_ge_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_fixunssfsi.o)
+__heap_end                                        /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(malloc.o)
+__heap_start                                      /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(malloc.o)
+__init                                            /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__ltsf2                                           /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_lt_sf.o)
+                                                  ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+__malloc_heap_end                                 /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(malloc.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(realloc.o)
+__malloc_heap_start                               /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(malloc.o)
+__malloc_margin                                   /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(malloc.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(realloc.o)
+__mulsf3                                          /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_mul_sf.o)
+                                                  ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+__mulsi_const_10                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(mulsi10.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(atol.o)
+__pack_f                                          /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_pack_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_usi_to_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_si_to_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_div_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_mul_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_addsub_sf.o)
+__prologue_saves__                                /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_prologue.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(realloc.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_usi_to_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_sf_to_si.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_si_to_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_lt_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_ge_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_div_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_mul_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_addsub_sf.o)
+__stack                                           /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__subsf3                                          /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_addsub_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_fixunssfsi.o)
+                                                  ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+__tablejump2__                                    /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_tablejump.o)
+__tablejump__                                     /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_tablejump.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_ctors.o)
+__thenan_sf                                       /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_thenan_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_div_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_mul_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_addsub_sf.o)
+__udivmodhi4                                      /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_udivmodhi4.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(utoa.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(itoa.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_divmodhi4.o)
+__udivmodsi4                                      /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_udivmodsi4.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(ultoa.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(ltoa.o)
+                                                  ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                                                  ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+__unpack_f                                        /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_unpack_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_sf_to_si.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_lt_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_ge_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_div_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_mul_sf.o)
+                                                  /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_addsub_sf.o)
+__vector_1                                        /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__vector_10                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__vector_11                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__vector_12                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__vector_13                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__vector_14                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__vector_15                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__vector_16                                       ../../libCore/arduinoUno/libcore.a(wiring.c.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__vector_17                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__vector_18                                       ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__vector_19                                       ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__vector_2                                        /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__vector_20                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__vector_21                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__vector_22                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__vector_23                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__vector_24                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__vector_25                                       /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__vector_3                                        /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__vector_4                                        /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__vector_5                                        /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__vector_6                                        /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__vector_7                                        /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__vector_8                                        /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__vector_9                                        /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__vector_default                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+__vectors                                         /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+_div                                              /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_divmodhi4.o)
+_exit                                             /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_exit.o)
+analogRead                                        ../../libCore/arduinoUno/libcore.a(wiring_analog.c.o)
+                                                  ./main.o
+analogReference                                   ../../libCore/arduinoUno/libcore.a(wiring_analog.c.o)
+analogWrite                                       ../../libCore/arduinoUno/libcore.a(wiring_analog.c.o)
+analog_reference                                  ../../libCore/arduinoUno/libcore.a(wiring_analog.c.o)
+atol                                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(atol.o)
+                                                  ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+delay                                             ../../libCore/arduinoUno/libcore.a(wiring.c.o)
+                                                  ./main.o
+delayMicroseconds                                 ../../libCore/arduinoUno/libcore.a(wiring.c.o)
+digitalRead                                       ../../libCore/arduinoUno/libcore.a(wiring_digital.c.o)
+digitalWrite                                      ../../libCore/arduinoUno/libcore.a(wiring_digital.c.o)
+                                                  ../../libCore/arduinoUno/libcore.a(wiring_analog.c.o)
+digital_pin_to_bit_mask_PGM                       ../../libCore/arduinoUno/libcore.a(wiring_digital.c.o)
+digital_pin_to_port_PGM                           ../../libCore/arduinoUno/libcore.a(wiring_digital.c.o)
+digital_pin_to_timer_PGM                          ../../libCore/arduinoUno/libcore.a(wiring_digital.c.o)
+                                                  ../../libCore/arduinoUno/libcore.a(wiring_analog.c.o)
+exit                                              /usr/lib/gcc/avr/4.5.3/avr5/libgcc.a(_exit.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+free                                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(malloc.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(realloc.o)
+                                                  ../../libCore/arduinoUno/libcore.a(new.cpp.o)
+                                                  ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+init                                              ../../libCore/arduinoUno/libcore.a(wiring.c.o)
+                                                  ./main.o
+isspace                                           /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(isspace.o)
+                                                  ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+itoa                                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(itoa.o)
+                                                  ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+loop                                              ./main.o
+ltoa                                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(ltoa.o)
+                                                  ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+main                                              ./main.o
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/crtm328p.o
+malloc                                            /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(malloc.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(realloc.o)
+                                                  ../../libCore/arduinoUno/libcore.a(new.cpp.o)
+memcpy                                            /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(memcpy.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(memmove.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(realloc.o)
+                                                  ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+memmove                                           /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(memmove.o)
+                                                  ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+micros                                            ../../libCore/arduinoUno/libcore.a(wiring.c.o)
+millis                                            ../../libCore/arduinoUno/libcore.a(wiring.c.o)
+operator delete(void*)                            ../../libCore/arduinoUno/libcore.a(new.cpp.o)
+operator new(unsigned int)                        ../../libCore/arduinoUno/libcore.a(new.cpp.o)
+operator+(StringSumHelper const&, String const&)  ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+operator+(StringSumHelper const&, char const*)    ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+operator+(StringSumHelper const&, char)           ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+operator+(StringSumHelper const&, int)            ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+operator+(StringSumHelper const&, long)           ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+operator+(StringSumHelper const&, unsigned char)  ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+operator+(StringSumHelper const&, unsigned int)   ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+operator+(StringSumHelper const&, unsigned long)  ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+pinMode                                           ../../libCore/arduinoUno/libcore.a(wiring_digital.c.o)
+                                                  ../../libCore/arduinoUno/libcore.a(wiring_analog.c.o)
+port_to_input_PGM                                 ../../libCore/arduinoUno/libcore.a(wiring_digital.c.o)
+port_to_mode_PGM                                  ../../libCore/arduinoUno/libcore.a(wiring_digital.c.o)
+port_to_output_PGM                                ../../libCore/arduinoUno/libcore.a(wiring_digital.c.o)
+realloc                                           /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(realloc.o)
+                                                  ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+rx_buffer                                         ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+serialEvent()                                     ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+serialEventRun()                                  ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+setup                                             ./main.o
+store_char(unsigned char, ring_buffer*)           ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+strchr                                            /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strchr.o)
+                                                  ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+strcmp                                            /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strcmp.o)
+                                                  ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+strcpy                                            /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strcpy.o)
+                                                  ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+strncmp                                           /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strncmp.o)
+                                                  ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+strncpy                                           /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strncpy.o)
+                                                  ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+strrchr                                           /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strrchr.o)
+                                                  ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+strrev                                            /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strrev.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(utoa.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(ultoa.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(ltoa.o)
+                                                  /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(itoa.o)
+strstr                                            /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(strstr.o)
+                                                  ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+timer0_millis                                     ../../libCore/arduinoUno/libcore.a(wiring.c.o)
+timer0_overflow_count                             ../../libCore/arduinoUno/libcore.a(wiring.c.o)
+tolower                                           /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(tolower.o)
+                                                  ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+toupper                                           /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(toupper.o)
+                                                  ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+tx_buffer                                         ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+ultoa                                             /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(ultoa.o)
+                                                  ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+utoa                                              /usr/lib/gcc/avr/4.5.3/../../../avr/lib/avr5/libc.a(utoa.o)
+                                                  ../../libCore/arduinoUno/libcore.a(WString.cpp.o)
+vtable for HardwareSerial                         ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
+vtable for Print                                  ../../libCore/arduinoUno/libcore.a(Print.cpp.o)
+vtable for Stream                                 ../../libCore/arduinoUno/libcore.a(HardwareSerial.cpp.o)
