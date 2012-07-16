@@ -5,14 +5,14 @@
 #include "PDController.h"
 #include "StepperMotor.h"
 
-#define INIT_SAMPLE_RATE 		250 //50 ms per sample
 #define LEFT_MOTOR_PIN			17
 #define RIGHT_MOTOR_PIN			18
 #define MAX_STEPPER_SPEED		500
 #define ACCELERATION			200
 #define FRAMESIZE 				400
 
-PDController *testController;
+PDController *leftPDController;
+PDController *rightPDController;
 LCD 		 *lcd;
 DCMotor		 *leftMotor;
 DCMotor		 *rightMotor;
@@ -24,30 +24,51 @@ void setup()
 {
 	/*start serial communication for debugging*/
 	Serial.begin(9600);
+	delay(100);
 
 	/*Initialise LCD*/
+	Serial.println("Initialise LCD");
 	lcd = new LCD(12,11,5,4,3,2,16,2);	//in order: RS,enable,D4,D5,D6,D7,columns,rows
+	delay(100);
 
 	/*Initialise Soft PWM for DC motors*/
+	Serial.println("Initialise PWM");
 	DCMotor_inti();
+	delay(100);
 
 	/*Initialise DC Motor*/
+	Serial.println("Initialise DC motor");
 	leftMotor = new DCMotor(LEFT_MOTOR_PIN);
 	rightMotor = new DCMotor(RIGHT_MOTOR_PIN);
-
-	/*Initialise timer1 for the PD Controllers*/
-	PDController_init(INIT_SAMPLE_RATE);
-
-	/*Initialise PD Controller parameters*/
-	testController = new PDController(INIT_SAMPLE_RATE);
-	testController->setpoint = 200; 					//desired pot value
-	testController->setTunings(0.25,0.005);				//set Kp and Kd values
-	testController->setOutputLimits(-255,0);			//set the output limits
+	delay(100);
 
 	/*Initialise Stepper Motor*/
-	myStepper = new StepperMotor(2,8,9);
+	Serial.println("Initialise stepper motor");
+	myStepper = new StepperMotor(4,8,9,6,7);
 	myStepper->setMaxSpeed(MAX_STEPPER_SPEED);
 	myStepper->setAcceleration(ACCELERATION);
+	delay(100);
+
+	/*Initialise left PD Controller parameters*/
+	Serial.println("Initialise left PDC");
+	leftPDController = new PDController();
+	leftPDController->setpoint = 200; 					//desired pot value
+	leftPDController->setTunings(0.40,0.05);				//set Kp and Kd values
+	leftPDController->setOutputLimits(-255,0);			//set the output limits
+	delay(100);
+
+	/*Initialise right PD Controller parameters*/
+	Serial.println("Initialise right PDC");
+	rightPDController = new PDController();
+	rightPDController->setpoint = 200; 					//desired pot value
+	rightPDController->setTunings(0.40,0.05);				//set Kp and Kd values
+	rightPDController->setOutputLimits(-255,0);			//set the output limits
+	delay(100);
+
+	/*Initialise timer1 for the PD Controllers*/
+	Serial.println("Initialise PD timer");
+	PDController_init();
+	delay(100);
 }
 
 
@@ -55,10 +76,15 @@ void setup()
 ISR(TIMER1_COMPA_vect)
 {
 	/*compute output*/
-	testController->compute(analogRead(2));
-	testController->outputSerial(1,testController->input, testController->output);
-	leftMotor->setMotorspeed(fabs(testController->output));
-	rightMotor->setMotorspeed(fabs(testController->output));
+	leftPDController->compute(analogRead(1));
+	rightPDController->compute(analogRead(2));
+
+	leftMotor->setMotorspeed(fabs(leftPDController->output));
+	rightMotor->setMotorspeed(fabs(rightPDController->output));
+
+	Serial.print(leftPDController->input);
+	Serial.print(" ");
+	Serial.println(rightPDController->input);
 }
 
 void setFilmPos()
@@ -68,7 +94,13 @@ void setFilmPos()
 	//TODO: replace this with a button presses
 	//replace with user control to align the film
 
-	delay(3000);
+	myStepper->reverseFrame(-500);
+
+	while(1)
+	{
+		myStepper->runSpeed();
+	}
+
 	//myStepper->reverseFrame(-500);
 }
 
@@ -83,9 +115,9 @@ int main(void)
 	init();
 	setup();
 
-	setFilmPos();
+	//setFilmPos();
 
-	lcd->updateLCD(0, 0 , 0, 0);			//display 0
+	lcd->updateLCD(0, 0, 0, 0);			//display 0
 
 	for (;;)
 	{

@@ -20,16 +20,13 @@ public:
 	int sampleTime;
 	double outMin, outMax;
 
-	PDController(double sampleTime);
+	PDController();
 	void compute(double analogInput);
 	void setTunings(double Kp, double Kd);
-	void setSampleTime(int newSampleTime);
 	void setOutputLimits(double Min, double Max);
-	void outputSerial(int num, double input, double output );
 };
 
-	void PDController_setSampleTime(uint16_t sampleTime);
-	void PDController_init(uint16_t sampleTime);
+	void PDController_init();
 
 
 

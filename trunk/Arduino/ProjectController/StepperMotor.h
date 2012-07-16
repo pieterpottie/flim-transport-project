@@ -13,7 +13,7 @@
 class StepperMotor: public AccelStepper
 {
 public:
-	StepperMotor(uint8_t pins, uint8_t pin1, uint8_t pin2);
+	StepperMotor(uint8_t pins, uint8_t pin1, uint8_t pin2, uint8_t pin3,uint8_t pin4);
 	void advanceFrame(int frameLength);
 	void reverseFrame(int speed);
 };
