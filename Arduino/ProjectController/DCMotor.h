@@ -14,10 +14,11 @@
 class DCMotor
 {
 private:
-	int pin;
+	int pwm_pin;
+	int dir_pin;
 
 public:
-	DCMotor(int pin);
+	DCMotor(int pwm_pin, int dir_pin);
 	void setMotorspeed(int speed);
 };
 

@@ -5,11 +5,13 @@
 #include "PDController.h"
 #include "StepperMotor.h"
 
-#define LEFT_MOTOR_PIN			17
-#define RIGHT_MOTOR_PIN			18
-#define MAX_STEPPER_SPEED		500
-#define ACCELERATION			200
-#define FRAMESIZE 				400
+#define LEFT_MOTOR_PIN_PWM			17
+#define LEFT_MOTOR_PIN_DIR			14
+#define RIGHT_MOTOR_PIN_PWM			18
+#define RIGHT_MOTOR_PIN_DIR			19
+#define MAX_STEPPER_SPEED			500
+#define ACCELERATION				200
+#define FRAMESIZE 					400
 
 PDController *leftPDController;
 PDController *rightPDController;
@@ -38,8 +40,8 @@ void setup()
 
 	/*Initialise DC Motor*/
 	Serial.println("Initialise DC motor");
-	leftMotor = new DCMotor(LEFT_MOTOR_PIN);
-	rightMotor = new DCMotor(RIGHT_MOTOR_PIN);
+	leftMotor = new DCMotor(LEFT_MOTOR_PIN_PWM, LEFT_MOTOR_PIN_DIR);
+	rightMotor = new DCMotor(RIGHT_MOTOR_PIN_PWM, RIGHT_MOTOR_PIN_DIR);
 	delay(100);
 
 	/*Initialise Stepper Motor*/
@@ -52,17 +54,17 @@ void setup()
 	/*Initialise left PD Controller parameters*/
 	Serial.println("Initialise left PDC");
 	leftPDController = new PDController();
-	leftPDController->setpoint = 200; 					//desired pot value
-	leftPDController->setTunings(0.40,0.05);				//set Kp and Kd values
-	leftPDController->setOutputLimits(-255,0);			//set the output limits
+	leftPDController->setpoint = 60; 					//desired pot value
+	leftPDController->setTunings(6.0,0.005);				//set Kp and Kd values
+	leftPDController->setOutputLimits(-255,255);			//set the output limits
 	delay(100);
 
 	/*Initialise right PD Controller parameters*/
 	Serial.println("Initialise right PDC");
 	rightPDController = new PDController();
-	rightPDController->setpoint = 200; 					//desired pot value
-	rightPDController->setTunings(0.40,0.05);				//set Kp and Kd values
-	rightPDController->setOutputLimits(-255,0);			//set the output limits
+	rightPDController->setpoint = 60; 					//desired pot value
+	rightPDController->setTunings(3.8,0.00001);				//set Kp and Kd values
+	rightPDController->setOutputLimits(-255,255);			//set the output limits
 	delay(100);
 
 	/*Initialise timer1 for the PD Controllers*/
@@ -79,12 +81,9 @@ ISR(TIMER1_COMPA_vect)
 	leftPDController->compute(analogRead(1));
 	rightPDController->compute(analogRead(2));
 
-	leftMotor->setMotorspeed(fabs(leftPDController->output));
-	rightMotor->setMotorspeed(fabs(rightPDController->output));
+	leftMotor->setMotorspeed(-leftPDController->output);
+	rightMotor->setMotorspeed(rightPDController->output);
 
-	Serial.print(leftPDController->input);
-	Serial.print(" ");
-	Serial.println(rightPDController->input);
 }
 
 void setFilmPos()
