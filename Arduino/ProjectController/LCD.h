@@ -19,8 +19,7 @@ public:
 	LCD(uint8_t rs, uint8_t enable,uint8_t d4, uint8_t d5,
 			uint8_t d6, uint8_t d7, uint8_t cols, uint8_t rows);
 	void trace(String message);
-	void updateLCD(int maxStepperSpeed, int numberOfFrames,
-			int tension, int systemState);
+	void updateLCD(String mode, int frames);
 };
 
 #endif /* LCD_H_ */

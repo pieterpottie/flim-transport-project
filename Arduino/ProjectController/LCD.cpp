@@ -23,26 +23,18 @@ void LCD::trace(String message)
 	lcd->print(message);
 }
 
-void LCD::updateLCD(int maxStepperSpeed, int numberOfFrames,
-		int tension, int systemState){
+void LCD::updateLCD(String mode, int frames)
+{
 
 	lcd->clear();
 
 	lcd->setCursor(0,0); // positions starting point on LCD, column 0, row 0 (that is, the top left of our LCD)
-	lcd->print("tenU:");
-	lcd->print(maxStepperSpeed);
+	lcd->print("Mode:");
+	lcd->print(mode);
 
-	lcd->setCursor(9,0);
-	lcd->print("Frm:");
-	lcd->print(numberOfFrames);
-
-	lcd->setCursor(0,1); // positions starting point on LCD, column 0, row 1 (that is, the bottom left of our LCD)
-	lcd->print("TenO:");
-	lcd->print(tension);
-
-	lcd->setCursor(9,1);
-	lcd->print("st:");
-	lcd->print(systemState);
+	lcd->setCursor(0,1);
+	lcd->print("Frames:");
+	lcd->print(frames);
 
 }
 

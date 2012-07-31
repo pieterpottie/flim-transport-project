@@ -16,10 +16,12 @@ class DCMotor
 private:
 	int pwm_pin;
 	int dir_pin;
+	bool enable;
 
 public:
 	DCMotor(int pwm_pin, int dir_pin);
 	void setMotorspeed(int speed);
+	void stop();
 };
 
 void DCMotor_inti();
