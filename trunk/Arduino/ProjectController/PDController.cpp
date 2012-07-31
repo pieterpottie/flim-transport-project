@@ -23,13 +23,20 @@ void PDController::compute(double analogInput)
 	lastInput = input;
 }
 
+void PDController::autoTune(double upper, double lower)
+{
+	if (input > upper && kp > KP_MIN)
+		kp -= KP_AUTO;
+	else if (input < lower && kp < KP_MAX)
+		kp += KP_AUTO;
+}
+
 void PDController::setTunings(double Kp, double Kd)
 {
 	double sampleTimeInSec = ((double)sampleTime)/1000;
 	kp = Kp;
 	kd = Kd/ sampleTimeInSec;
 }
-
 
 void PDController::setOutputLimits(double Min, double Max)
 {

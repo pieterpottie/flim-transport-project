@@ -1,17 +1,24 @@
 #include <Arduino.h>
+#include <avr/sleep.h>
 #include <math.h>
 #include "LCD.h"
 #include "DCMotor.h"
 #include "PDController.h"
 #include "StepperMotor.h"
 
+#define TRIGGER_PIN					10
+#define SWITCH_PIN					13
 #define LEFT_MOTOR_PIN_PWM			17
 #define LEFT_MOTOR_PIN_DIR			14
 #define RIGHT_MOTOR_PIN_PWM			18
 #define RIGHT_MOTOR_PIN_DIR			19
-#define MAX_STEPPER_SPEED			500
-#define ACCELERATION				200
+#define MAX_STEPPER_SPEED			3000
+#define ACCELERATION				500
 #define FRAMESIZE 					400
+#define NO_TENSION_THRESHOLD 		10   		//POT value to indicate no tension
+#define TENSION_THRESHOLD 			120   		//POT value to indicate too much tension
+#define SHUTDOWN_LIMIT 				2000	 	//Wait max 30 seconds
+#define STOP_MOTOR_LIMIT 			2000	 	//Wait max 2 seconds
 
 PDController *leftPDController;
 PDController *rightPDController;
@@ -21,6 +28,11 @@ DCMotor		 *rightMotor;
 StepperMotor *myStepper;
 
 uint16_t frameCount = 0;
+uint16_t rightPotStallTime = 0;
+uint16_t rightPotStallTime2 = 0;
+uint16_t leftPotStallTime = 0;
+
+bool inOperationMode = false;
 
 void setup()
 {
@@ -55,7 +67,7 @@ void setup()
 	Serial.println("Initialise left PDC");
 	leftPDController = new PDController();
 	leftPDController->setpoint = 60; 					//desired pot value
-	leftPDController->setTunings(6.0,0.005);				//set Kp and Kd values
+	leftPDController->setTunings(4.7,0.005);				//set Kp and Kd values
 	leftPDController->setOutputLimits(-255,255);			//set the output limits
 	delay(100);
 
@@ -63,7 +75,7 @@ void setup()
 	Serial.println("Initialise right PDC");
 	rightPDController = new PDController();
 	rightPDController->setpoint = 60; 					//desired pot value
-	rightPDController->setTunings(3.8,0.00001);				//set Kp and Kd values
+	rightPDController->setTunings(3.0,0.005);				//set Kp and Kd values
 	rightPDController->setOutputLimits(-255,255);			//set the output limits
 	delay(100);
 
@@ -71,8 +83,59 @@ void setup()
 	Serial.println("Initialise PD timer");
 	PDController_init();
 	delay(100);
+
+	/*Trigger pin*/
+	pinMode(TRIGGER_PIN,OUTPUT);
+	digitalWrite(TRIGGER_PIN, LOW);
+
+	/*finally initialise the switch pin*/
+	pinMode(SWITCH_PIN,INPUT);
 }
 
+void checkMotorStop()
+{
+	/* stops the right motor if no right tension is detected*/
+	if(rightPDController->input < NO_TENSION_THRESHOLD)
+	{
+		if(rightPotStallTime > STOP_MOTOR_LIMIT)
+			rightMotor->stop();
+		rightPotStallTime += rightPDController->sampleTime;
+	}
+	else
+		rightPotStallTime = 0;
+}
+
+void shutdown()
+{
+	leftMotor->stop();
+	rightMotor->stop();
+	digitalWrite(TRIGGER_PIN, LOW);
+	sleep_enable();
+	sleep_mode();
+}
+
+void checkStopFilm()
+{
+	/*stop the entire system if no right tension is detected*/
+	if(rightPDController->input < NO_TENSION_THRESHOLD)
+	{
+		if(rightPotStallTime > SHUTDOWN_LIMIT)
+			shutdown();
+		rightPotStallTime += leftPDController->sampleTime;
+	}
+	else
+		rightPotStallTime = 0;
+
+	/*stop the entire system if too much tension is detected*/
+	if(rightPDController->input > TENSION_THRESHOLD)
+	{
+		if(rightPotStallTime2 > SHUTDOWN_LIMIT)
+			shutdown();
+		rightPotStallTime2 += rightPDController->sampleTime;
+	}
+	else
+		rightPotStallTime2 = 0;
+}
 
 // interrupt timer routine for the PD Controllers
 ISR(TIMER1_COMPA_vect)
@@ -84,28 +147,36 @@ ISR(TIMER1_COMPA_vect)
 	leftMotor->setMotorspeed(-leftPDController->output);
 	rightMotor->setMotorspeed(rightPDController->output);
 
-}
+	Serial.println(leftPDController->input);
 
-void setFilmPos()
-{
-	lcd->trace("Set Film Pos");
-
-	//TODO: replace this with a button presses
-	//replace with user control to align the film
-
-	myStepper->reverseFrame(-500);
-
-	while(1)
+	if(inOperationMode)
 	{
-		myStepper->runSpeed();
+		//checkMotorStop();
+		checkStopFilm();
 	}
 
-	//myStepper->reverseFrame(-500);
 }
 
-void emergencyStop()
-{
-	//TODO: replace this with a button press
+void checkManualMode(){
+
+	if (!digitalRead(SWITCH_PIN))
+	{
+		lcd->updateLCD("Manual", 0);
+
+		inOperationMode = false;
+		while(!digitalRead(SWITCH_PIN))
+		{
+			/*in manual mode*/
+			myStepper->setSpeed(5);
+			myStepper->runSpeed();
+		}
+		//return to operation mode
+		myStepper->advanceFrame(FRAMESIZE);
+		frameCount = 0;
+		lcd->updateLCD("Operation", 0);
+	}
+
+	inOperationMode = true;
 }
 
 int main(void)
@@ -114,17 +185,22 @@ int main(void)
 	init();
 	setup();
 
-	//setFilmPos();
-
-	lcd->updateLCD(0, 0, 0, 0);			//display 0
+	checkManualMode();
+	lcd->updateLCD("Operation", 0);
 
 	for (;;)
 	{
+		digitalWrite(TRIGGER_PIN,HIGH);
+
 		myStepper->advanceFrame(FRAMESIZE);
-		while(myStepper->run()); 				//run till frame is complete
+		while(myStepper->run())					//run till frame is complete
+			checkManualMode();
+
+		digitalWrite(TRIGGER_PIN,LOW);
+
+		delay(2000); 							//wait for camera capture
 		frameCount++;							//increment frame count
-		delay(1000); 							//wait for camera capture
-		lcd->updateLCD(frameCount, 0 , 0, 0);
+		lcd->updateLCD("Operation", frameCount);	//update LCD
 	}
 	return 0;
 }

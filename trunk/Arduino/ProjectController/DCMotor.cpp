@@ -20,21 +20,35 @@ DCMotor::DCMotor(int pwm_pin, int dir_pin)
 	pinMode(dir_pin,OUTPUT);
 	digitalWrite(dir_pin,HIGH);
 
+	this->enable = true;
+
+}
+
+void DCMotor::stop()
+{
+	/*stop the motor from running*/
+	SoftPWMEnd(this->pwm_pin);
+	digitalWrite(this->pwm_pin,HIGH);
+	digitalWrite(this->dir_pin,HIGH);
+	this->enable = false;
 }
 
 void DCMotor::setMotorspeed(int speed)
 {
-	if (speed >= 0)
+	if(this->enable)
 	{
-		digitalWrite(dir_pin,CLOCKWISE);
-		SoftPWMSet(this->pwm_pin, speed);
+		/* set speed based on direction*/
+		if (speed >= 0)
+		{
+			digitalWrite(dir_pin,CLOCKWISE);
+			SoftPWMSet(this->pwm_pin, speed);
+		}
+		else
+		{
+			digitalWrite(dir_pin,COUNTER_CLOCKWISE);
+			SoftPWMSet(this->pwm_pin, 0xFF + speed);
+		}
 	}
-	else
-	{
-		digitalWrite(dir_pin,COUNTER_CLOCKWISE);
-		SoftPWMSet(this->pwm_pin, 0xFF + speed);
-	}
-
 }
 
 void DCMotor_inti()
