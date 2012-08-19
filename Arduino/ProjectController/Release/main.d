@@ -1,44 +1,48 @@
-main.d main.o: ../main.cpp ../../libCore/arduino/Arduino.h \
- ../../libCore/arduino/binary.h ../../libCore/arduino/WCharacter.h \
- ../../libCore/arduino/WString.h ../../libCore/arduino/HardwareSerial.h \
- ../../libCore/arduino/Stream.h ../../libCore/arduino/Print.h \
- ../../libCore/arduino/Printable.h ../../libCore/arduino/new.h \
- ../../libCore/arduino/pins_arduino.h ../LCD.h ../LiquidCrystal.h \
- ../../libCore/arduino/Print.h ../DCMotor.h ../SoftPWM.h \
- ../PDController.h ../StepperMotor.h ../AccelStepper.h
-
-../../libCore/arduino/Arduino.h:
-
-../../libCore/arduino/binary.h:
-
-../../libCore/arduino/WCharacter.h:
-
-../../libCore/arduino/WString.h:
-
-../../libCore/arduino/HardwareSerial.h:
-
-../../libCore/arduino/Stream.h:
-
-../../libCore/arduino/Print.h:
-
-../../libCore/arduino/Printable.h:
-
-../../libCore/arduino/new.h:
-
-../../libCore/arduino/pins_arduino.h:
-
-../LCD.h:
-
-../LiquidCrystal.h:
-
-../../libCore/arduino/Print.h:
-
-../DCMotor.h:
-
-../SoftPWM.h:
-
-../PDController.h:
-
-../StepperMotor.h:
-
-../AccelStepper.h:
+   <X>1.625</X>
+            <Z>2.375</Z>
+          </Pt>
+          <Pt>
+            <X>1.875</X>
+            <Z>2.375</Z>
+          </Pt>
+          <Pt>
+            <X>1.875</X>
+            <Z>2.5</Z>
+          </Pt>
+          <Pt>
+            <X>1.825</X>
+            <Z>2.55</Z>
+          </Pt>
+          <Pt>
+            <X>1.825</X>
+            <Z>2.7</Z>
+          </Pt>
+          <Pt>
+            <X>1.875</X>
+            <Z>2.75</Z>
+          </Pt>
+          <Pt>
+            <X>1.875</X>
+            <Z>2.875</Z>
+          </Pt>
+          <Pt>
+            <X>1.375</X>
+            <Z>2.875</Z>
+          </Pt>
+          <Pt>
+            <X>1.375</X>
+            <Z>3</Z>
+          </Pt>
+          <Pt>
+            <X>0.79</X>
+            <Z>7</Z>
+          </Pt>
+          <Pt>
+            <X>0</X>
+            <Z>7</Z>
+          </Pt>
+          <SpindleDirection>CW</SpindleDirection>
+          <Origin>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>2
